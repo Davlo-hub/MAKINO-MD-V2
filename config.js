@@ -3,7 +3,7 @@ const fs = require("fs");
 //to enable function - true
 //to disable function - false
 //
-global.available = false;
+global.available = true;
 global.autoReadGc = false;
 global.autoReadAll = false;
 global.antitags = false;
@@ -11,14 +11,14 @@ global.antitags = false;
 
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
-global.autoRecord = true;                //make true to enable auto recording
-global.autoviewstatus = false;                 //make true to view statuses 
+global.autoRecord = false;                //make true to enable auto recording
+global.autoviewstatus = true;                 //make true to view statuses 
 global.anticall = false
 
 
-global.SESSION_ID = process.env.SESSION_ID || ""
-global.Owner = ["2349151864541"]; //like 2347080968564 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
+global.SESSION_ID = process.env.SESSION_ID || "taira_tech-3lVxXT7D#uk4xOrNBF0XU1wXXKyEf71pKHWqIblEJCEbCAMzLgOM"
+global.Owner = ["254104260236"]; //like 2347080968564 
+global.OwnerName =  "Gifted Dave";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
 global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
 global.author = "TAIRA MAKINO";                               //Do not change.
