@@ -3,7 +3,7 @@ const fs = require("fs");
 //to enable function - true
 //to disable function - false
 //
-global.available = true;
+global.available = false;
 global.autoReadGc = false;
 global.autoReadAll = false;
 global.antitags = false;
@@ -16,9 +16,9 @@ global.autoviewstatus = true;                 //make true to view statuses
 global.anticall = false
 
 
-global.SESSION_ID = process.env.SESSION_ID || "taira_tech-rktGXZ4a#NoiJ7cEc-kOFCgyEgT-vKnfk_9msSOdBKpxGXpDHGyo"
-global.Owner = ["254742870459"]; //like 2347080968564 
-global.OwnerName =  "senior";
+global.SESSION_ID = process.env.SESSION_ID || "taira_tech-61twBIZZ#8fZjqbvPUTGAOdhMlDYkZ7sqhWs35ZPsrsPx0Myz1lM"
+global.Owner = ["254104260236"]; //like 2347080968564 
+global.OwnerName =  "Dave";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
 global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
 global.author = "TAIRA MAKINO";                               //Do not change.
